@@ -20,6 +20,9 @@ A Korlan USB2CAN adapter (8devices) acts as a third "ear" on the CAN bus between
 | `csp_can_gui.py` | Tkinter GUI: CSP packet table, CAN frame table, EPS housekeeping panel, command buttons, bus statistics, CSV log export, plus a simulation mode that needs no hardware |
 | `test_korlan.py` | Quick connection test: finds the Korlan and prints frames for 5 seconds |
 | `docs/` | Diagrams and screenshots from the tutorial |
+| [`canable/`](canable/) | Version for the **Makerbase CANable V2.0 Pro** (slcan firmware, no driver/DLL) |
+
+> **Have a Makerbase CANable V2.0 Pro?** Use the code in the [`canable/`](canable/) folder. Setup steps and differences are in [canable/README.en.md](canable/README.en.md).
 
 ## Hardware
 

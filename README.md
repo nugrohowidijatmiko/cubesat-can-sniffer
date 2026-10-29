@@ -18,6 +18,9 @@ Korlan USB2CAN (8devices) dipasang sebagai "telinga" ketiga di bus CAN antara du
 | `csp_can_gui.py` | GUI Tkinter: tabel paket CSP, tabel frame CAN, panel housekeeping EPS, tombol perintah, statistik bus, simpan log CSV, plus mode simulasi tanpa hardware |
 | `test_korlan.py` | Tes koneksi singkat: cari Korlan lalu tampilkan frame selama 5 detik |
 | `docs/` | Diagram dan tangkapan layar dari tutorial |
+| [`canable/`](canable/) | Versi untuk **Makerbase CANable V2.0 Pro** (firmware slcan, tanpa driver/DLL) |
+
+> **Punya Makerbase CANable V2.0 Pro?** Pakai kode di folder [`canable/`](canable/). Langkah dan perbedaannya ada di [canable/README.md](canable/README.md).
 
 ## Perangkat
 
