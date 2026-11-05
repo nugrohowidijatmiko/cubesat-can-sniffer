@@ -4,7 +4,7 @@
 
 This folder contains a version of the sniffer that uses a **Makerbase CANable V2.0 Pro** instead of the Korlan USB2CAN. The CFP/CSP logic, the GUI and the simulation mode are the same as the Korlan version in the main folder; only the way the program connects to the adapter is different.
 
-Tutorial (in Indonesian): *Sniffing CAN Bus CubeSat (libcsp) dengan Makerbase CANable V2.0 Pro dan GUI Python* on [nugrohowidijatmiko.blogspot.com](https://nugrohowidijatmiko.blogspot.com/).
+Tutorial (in Indonesian): *Sniffing CAN Bus CubeSat (libcsp) dengan Makerbase CANable V2.0 Pro dan GUI Python*: https://nugrohowidijatmiko.blogspot.com/2026/11/sniffing-can-bus-cubesat-libcsp-dengan.html
 
 > The GUI labels, code comments and program messages are in Indonesian, as in the main folder.
 
