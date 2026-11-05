@@ -22,6 +22,7 @@ A Korlan USB2CAN adapter (8devices) acts as a third "ear" on the CAN bus between
 | `docs/` | Diagrams and screenshots from the tutorial |
 | [`canable/`](canable/) | Version for the **Makerbase CANable V2.0 Pro** (slcan firmware, no driver/DLL) |
 | [`dual-adapter/`](dual-adapter/) | One program for **both Korlan USB2CAN and CANable**: adapters are detected automatically and selectable in the GUI |
+| [`drivers/`](drivers/) | Backup drivers and firmware: Korlan (WinUSB + `usb2can.dll`) and CANable (slcan/candleLight firmware, Windows 7/8 driver) |
 
 > **Have a Makerbase CANable V2.0 Pro?** Use the code in the [`canable/`](canable/) folder. Setup steps and differences are in [canable/README.en.md](canable/README.en.md).
 
@@ -122,7 +123,7 @@ The Korlan acknowledges frames on the bus, so a single board plus the Korlan is 
 
 ## Notes
 
-- `usb2can.dll` is not included in this repository; download it from 8devices.
+- The Korlan driver (`usb2can_winusb.msi`) and `usb2can.dll` are kept as backups in [`drivers/korlan/`](drivers/korlan/); copy `x64/Release/usb2can.dll` from the zip into the program folder. The official source is still the 8devices page.
 - The GUI's `simulasi` mode creates simulated OBC and EPS nodes on a python-can virtual bus that behave like the firmware.
 
 ## License

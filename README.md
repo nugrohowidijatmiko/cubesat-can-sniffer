@@ -20,6 +20,7 @@ Korlan USB2CAN (8devices) dipasang sebagai "telinga" ketiga di bus CAN antara du
 | `docs/` | Diagram dan tangkapan layar dari tutorial |
 | [`canable/`](canable/) | Versi untuk **Makerbase CANable V2.0 Pro** (firmware slcan, tanpa driver/DLL) |
 | [`dual-adapter/`](dual-adapter/) | Satu program untuk **Korlan USB2CAN dan CANable**: adapter dideteksi otomatis dan bisa dipilih di GUI |
+| [`drivers/`](drivers/) | Cadangan driver dan firmware: Korlan (WinUSB + `usb2can.dll`) dan CANable (firmware slcan/candleLight, driver Windows 7/8) |
 
 > **Punya Makerbase CANable V2.0 Pro?** Pakai kode di folder [`canable/`](canable/). Langkah dan perbedaannya ada di [canable/README.md](canable/README.md).
 
@@ -118,7 +119,7 @@ Korlan ikut memberi ACK di bus, jadi satu board saja bersama Korlan tetap terbac
 
 ## Catatan
 
-- `usb2can.dll` tidak disertakan di repo ini; unduh dari 8devices.
+- Driver Korlan (`usb2can_winusb.msi`) dan `usb2can.dll` ada di folder [`drivers/korlan/`](drivers/korlan/) sebagai cadangan; salin `x64/Release/usb2can.dll` dari zip ke folder program. Sumber resminya tetap halaman 8devices.
 - Mode `simulasi` di GUI membuat OBC dan EPS tiruan di bus virtual python-can, perilakunya sama dengan firmware.
 
 ## Lisensi
