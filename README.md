@@ -19,8 +19,11 @@ Korlan USB2CAN (8devices) dipasang sebagai "telinga" ketiga di bus CAN antara du
 | `test_korlan.py` | Tes koneksi singkat: cari Korlan lalu tampilkan frame selama 5 detik |
 | `docs/` | Diagram dan tangkapan layar dari tutorial |
 | [`canable/`](canable/) | Versi untuk **Makerbase CANable V2.0 Pro** (firmware slcan, tanpa driver/DLL) |
+| [`dual-adapter/`](dual-adapter/) | Satu program untuk **Korlan USB2CAN dan CANable**: adapter dideteksi otomatis dan bisa dipilih di GUI |
 
 > **Punya Makerbase CANable V2.0 Pro?** Pakai kode di folder [`canable/`](canable/). Langkah dan perbedaannya ada di [canable/README.md](canable/README.md).
+
+> **Punya dua-duanya?** Folder [`dual-adapter/`](dual-adapter/) berisi satu GUI yang mendeteksi Korlan USB2CAN maupun CANable secara otomatis.
 
 ## Perangkat
 

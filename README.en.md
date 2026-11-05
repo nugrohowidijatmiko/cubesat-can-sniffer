@@ -21,8 +21,11 @@ A Korlan USB2CAN adapter (8devices) acts as a third "ear" on the CAN bus between
 | `test_korlan.py` | Quick connection test: finds the Korlan and prints frames for 5 seconds |
 | `docs/` | Diagrams and screenshots from the tutorial |
 | [`canable/`](canable/) | Version for the **Makerbase CANable V2.0 Pro** (slcan firmware, no driver/DLL) |
+| [`dual-adapter/`](dual-adapter/) | One program for **both Korlan USB2CAN and CANable**: adapters are detected automatically and selectable in the GUI |
 
 > **Have a Makerbase CANable V2.0 Pro?** Use the code in the [`canable/`](canable/) folder. Setup steps and differences are in [canable/README.en.md](canable/README.en.md).
+
+> **Have both?** The [`dual-adapter/`](dual-adapter/) folder has one GUI that detects a Korlan USB2CAN or a CANable automatically.
 
 ## Hardware
 
